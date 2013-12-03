@@ -1,0 +1,4 @@
+CREATE TABLE sample (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    content TEXT
+) CHARACTER SET utf8 COLLATE utf8_general_ci;
