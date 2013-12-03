@@ -1,0 +1,12 @@
+<script>SyntaxHighlighter.all();</script> 
+
+<?php 
+    if ($this->select != NULL)
+    {
+        foreach ($this->select as $c)
+        {
+            echo $c['content']; 
+        }
+    }
+    
+    echo $this->ckeditor;
